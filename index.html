@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinit</title>
+  </head>
+  <body>
+    <h1>WELCOME TO THE WEBSITE OWNED BY VINIT BARAL</h1>
+    <h3>
+      HE USES THIS WEBSITE TO QUICKLY DOWNLOAD CONTENTS REQUIRED IN REAL TIME
+    </h3>
+
+    <p>Click the button below to download the file:</p>
+
+    <a id="downloadLink" href="#" download="Hall presentation.pptx">
+      <button>Download The BOSS File</button>
+    </a>
+    <script>
+      var zipFileUrl = "Hall presentation.pptx";
+      document.getElementById("downloadLink").href = zipFileUrl;
+    </script>
+  </body>
+</html>
